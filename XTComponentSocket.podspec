@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTComponentSocket'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'XTComponentSocket.描述'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'XTComponentSocket/*.{h,m}'
+#s.source_files = 'XTComponentSocket/*.{h,m}'
   # 配置子目录
 
   s.subspec 'LocalDependency' do |localDependency|
@@ -48,5 +48,5 @@ s.source_files = 'XTComponentSocket/*.{h,m}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'XTComponentUtils', '~> 1.1.0'
+  s.dependency 'XTComponentUtils', '~> 1.1.1'
 end

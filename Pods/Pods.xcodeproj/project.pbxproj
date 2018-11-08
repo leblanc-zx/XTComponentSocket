@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E717EF3D0D9D21CB10FE04E4E4BF0C /* XTComponentUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B0D6A3000B6D53D80BF37FA77FA8B4 /* XTComponentUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DC4B3129E48BB3B256DC4C752E81309 /* NSString+XTHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD8198625989A51E901E3F14E735EF /* NSString+XTHash.m */; };
-		0F5F5B76C9685B5B9B4982E032ADC8D2 /* XTUtils+PriceGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8D8210AF7D3BC7CD7580F392BE7F1F /* XTUtils+PriceGroup.m */; };
-		144DECEC9FE4AFC61A6B5F1D66BB21DC /* XTUtils+PriceGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CA98F1D7EB64957CD9D0C32E10E4AE /* XTUtils+PriceGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F2ADCDF6F2B948CC78F7191BE6A32E9 /* XTComponentUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF650F3EF2C3945B65D25E4D6777A44C /* XTComponentUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A0212D70881BAD5BD826529100DC9CD /* XTUtils+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1357956E30A04E446FE0CEE8B3526D /* XTUtils+Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52738AC6534AD05FBD18A6F657BC4E08 /* XTComponentUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8CAEB85AF82DBF4B3DD626D1A228B /* XTComponentUtils-dummy.m */; };
-		57C5D354FA5B74B83CD51F25545BAC3B /* NSString+XTHash.h in Headers */ = {isa = PBXBuildFile; fileRef = A06C6FBF7CE5E72A267DEE953C8B0ACF /* NSString+XTHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58AF2ED290E5117D64052064046E74A2 /* XTUtils+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E309F16348BC8DA5FEBBFDD3652DD /* XTUtils+AES.m */; };
-		58B7C984CDF8EA779DFF3E6FD02387FA /* NSString+XTEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B07B36D0C03C51B931E7800B77E468 /* NSString+XTEncryption.m */; };
-		6DD3ABAAB4ED92E14938EB826A85B9BE /* XTPriceGroupInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 458FCDF632CBCB893C0E90B01531D4D5 /* XTPriceGroupInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DC4B3129E48BB3B256DC4C752E81309 /* NSString+XTHash.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BAC86008743E7EE1BC51B9C3E393E /* NSString+XTHash.m */; };
+		0F5F5B76C9685B5B9B4982E032ADC8D2 /* XTUtils+PriceGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D127FE7586AFB615F2E9DDB6CAA61FC2 /* XTUtils+PriceGroup.m */; };
+		294A0D5331784903287BAFC46CDE654D /* XTUtils+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 694C92F9B44DF027E7C941C0583A85A9 /* XTUtils+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498954373E797CEE631A4E3836FF0277 /* NSString+XTHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E2305B49EC6B246E02EEE314FBD933 /* NSString+XTHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52738AC6534AD05FBD18A6F657BC4E08 /* XTComponentUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8186E367433E65AADA6345805BAD9683 /* XTComponentUtils-dummy.m */; };
+		58AF2ED290E5117D64052064046E74A2 /* XTUtils+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B44FD9893BC72C5063A05592BF3A6E /* XTUtils+AES.m */; };
+		58B7C984CDF8EA779DFF3E6FD02387FA /* NSString+XTEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = A11DDE5CD62F3CCD8E100E673A2D7FAB /* NSString+XTEncryption.m */; };
 		6EE0EAF57DAF4C6CE570993F5AC6042C /* Pods-XTComponentSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B162D60DAF60C8E67FEBF3A3F1EDFB03 /* Pods-XTComponentSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F97D709C21A60EA6D0B42C2B669E486 /* Pods-XTComponentSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A309AD535DBBCBE73488FD4B6F72B279 /* Pods-XTComponentSocket-dummy.m */; };
 		7E4123753C68A4AB2316A62928D34E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		93768282BAE55CA08DB73CF57C7F2424 /* XTUtils+DES.h in Headers */ = {isa = PBXBuildFile; fileRef = 421D6A805FAD6E1926FEA767A1CCC0E8 /* XTUtils+DES.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94919C3ED6BD3E3BFC84A69B339D81E6 /* XTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 012B9A33B5E07EBDF5215D7AD7021ADE /* XTUtils.m */; };
-		B66199A405CE3E383A310A6E04B589B4 /* XTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0267B7665B1F67A91007078C3560B4 /* XTUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC3B0A26F112F30A1E7E5E1356EAD1B4 /* XTUtils+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 57651A6E4E23B8D756593DEB92242779 /* XTUtils+DES.m */; };
-		D05E6873859800331D3ACE2D318413EE /* XTPriceGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E294C436FEA6A2F0C6AC30C6A1086B6E /* XTPriceGroupInfo.m */; };
-		DEBA51CF617D77DEC348626E33DC21C6 /* XTUtils+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D35957D92005C57CD1059C0836907 /* XTUtils+Date.m */; };
-		E9E706D58F38C3176F66EBA08986441D /* NSString+XTEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 824EE757D52C99B9972C9CFD7D323D94 /* NSString+XTEncryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923B567336D9C5835885A3AEB976B4C9 /* XTUtils+DES.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B95870C672B7DB43DCC03940A13E0F /* XTUtils+DES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94919C3ED6BD3E3BFC84A69B339D81E6 /* XTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C67ACFCDF5AF56E40114068AE1CBA /* XTUtils.m */; };
+		9ADD309F75018BC4F0186413E14E62C7 /* XTPriceGroupInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBC313E48A85FAE73F956A6EBB3FE5E /* XTPriceGroupInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6A48831BD3AE8E6C7A998BF1CF096D1 /* XTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A29C8E649D2DC1524DFD70906A2A29A3 /* XTUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9303D8131BD9E557B84E4ADEF2F1B53 /* XTUtils+Date.h in Headers */ = {isa = PBXBuildFile; fileRef = CB72D37573FDE78A7341ED5B6D603ADF /* XTUtils+Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3B0A26F112F30A1E7E5E1356EAD1B4 /* XTUtils+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC3FF058ABFC6EA1F63D22BFFB75696 /* XTUtils+DES.m */; };
+		CF34C16293F805263C5363EF461A0818 /* NSString+XTEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EADC24DDC72684B20E84DCCB77717C4 /* NSString+XTEncryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05E6873859800331D3ACE2D318413EE /* XTPriceGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D10AE32ADDF26953CDA294B348B33A /* XTPriceGroupInfo.m */; };
+		DEBA51CF617D77DEC348626E33DC21C6 /* XTUtils+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 84102BF301091786823D11976C28B5DA /* XTUtils+Date.m */; };
+		EB3651A559B0D1680A337C5796842CBC /* XTComponentUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30B4DA730F73E7FEB5FB2449159BEB8 /* XTComponentUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB82FBC2DF897923388F0E64D2796FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EFB67EDC3E3E27425B68D3006CDF9B98 /* XTUtils+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = B09ED11B922097091175F30F16F503A8 /* XTUtils+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A55904E9920DA5A3B6AEC33A0251A9 /* XTUtils+PriceGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A744AF1E2C15FC8B1786C8269777B39 /* XTUtils+PriceGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,42 +42,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012B9A33B5E07EBDF5215D7AD7021ADE /* XTUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTUtils.m; path = XTComponentUtils/Utils/XTUtils.m; sourceTree = "<group>"; };
 		04D37350049F3E04ADA15B3A5EDF61DD /* Pods-XTComponentSocket-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTComponentSocket-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04F8CAEB85AF82DBF4B3DD626D1A228B /* XTComponentUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTComponentUtils-dummy.m"; sourceTree = "<group>"; };
+		07D10AE32ADDF26953CDA294B348B33A /* XTPriceGroupInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTPriceGroupInfo.m; path = XTComponentUtils/Models/XTPriceGroupInfo.m; sourceTree = "<group>"; };
 		147468958DA32F4CBEB93B38C6B8A2CA /* Pods_XTComponentSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XTComponentSocket.framework; path = "Pods-XTComponentSocket.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD8198625989A51E901E3F14E735EF /* NSString+XTHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTHash.m"; path = "XTComponentUtils/LocalDependency/NSString+XTHash.m"; sourceTree = "<group>"; };
-		2D20C8BCDD13169AA86CB363A050CDE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41B0D6A3000B6D53D80BF37FA77FA8B4 /* XTComponentUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTComponentUtils-umbrella.h"; sourceTree = "<group>"; };
-		421D6A805FAD6E1926FEA767A1CCC0E8 /* XTUtils+DES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+DES.h"; path = "XTComponentUtils/Utils/XTUtils+DES.h"; sourceTree = "<group>"; };
-		458FCDF632CBCB893C0E90B01531D4D5 /* XTPriceGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTPriceGroupInfo.h; path = XTComponentUtils/Models/XTPriceGroupInfo.h; sourceTree = "<group>"; };
+		1F8C67ACFCDF5AF56E40114068AE1CBA /* XTUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTUtils.m; path = XTComponentUtils/Utils/XTUtils.m; sourceTree = "<group>"; };
 		4E1D1E803AB603EE471BD887EF22969B /* Pods-XTComponentSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTComponentSocket.modulemap"; sourceTree = "<group>"; };
-		55B07B36D0C03C51B931E7800B77E468 /* NSString+XTEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTEncryption.m"; path = "XTComponentUtils/LocalDependency/NSString+XTEncryption.m"; sourceTree = "<group>"; };
-		57651A6E4E23B8D756593DEB92242779 /* XTUtils+DES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+DES.m"; path = "XTComponentUtils/Utils/XTUtils+DES.m"; sourceTree = "<group>"; };
+		5FBC313E48A85FAE73F956A6EBB3FE5E /* XTPriceGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTPriceGroupInfo.h; path = XTComponentUtils/Models/XTPriceGroupInfo.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A0E309F16348BC8DA5FEBBFDD3652DD /* XTUtils+AES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+AES.m"; path = "XTComponentUtils/Utils/XTUtils+AES.m"; sourceTree = "<group>"; };
+		694C92F9B44DF027E7C941C0583A85A9 /* XTUtils+AES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+AES.h"; path = "XTComponentUtils/Utils/XTUtils+AES.h"; sourceTree = "<group>"; };
 		76CA6B18BEE0D38EEBE4B58297F80D7B /* Pods-XTComponentSocket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTComponentSocket-acknowledgements.plist"; sourceTree = "<group>"; };
-		824EE757D52C99B9972C9CFD7D323D94 /* NSString+XTEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTEncryption.h"; path = "XTComponentUtils/LocalDependency/NSString+XTEncryption.h"; sourceTree = "<group>"; };
-		8B6D35957D92005C57CD1059C0836907 /* XTUtils+Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+Date.m"; path = "XTComponentUtils/Utils/XTUtils+Date.m"; sourceTree = "<group>"; };
+		8186E367433E65AADA6345805BAD9683 /* XTComponentUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTComponentUtils-dummy.m"; sourceTree = "<group>"; };
+		83E2305B49EC6B246E02EEE314FBD933 /* NSString+XTHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTHash.h"; path = "XTComponentUtils/LocalDependency/NSString+XTHash.h"; sourceTree = "<group>"; };
+		84102BF301091786823D11976C28B5DA /* XTUtils+Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+Date.m"; path = "XTComponentUtils/Utils/XTUtils+Date.m"; sourceTree = "<group>"; };
+		8A744AF1E2C15FC8B1786C8269777B39 /* XTUtils+PriceGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+PriceGroup.h"; path = "XTComponentUtils/Utils/XTUtils+PriceGroup.h"; sourceTree = "<group>"; };
+		8EADC24DDC72684B20E84DCCB77717C4 /* NSString+XTEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTEncryption.h"; path = "XTComponentUtils/LocalDependency/NSString+XTEncryption.h"; sourceTree = "<group>"; };
+		91B44FD9893BC72C5063A05592BF3A6E /* XTUtils+AES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+AES.m"; path = "XTComponentUtils/Utils/XTUtils+AES.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987BD856424C72E5075F19D955CC32DC /* Pods-XTComponentSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTComponentSocket.release.xcconfig"; sourceTree = "<group>"; };
-		A06C6FBF7CE5E72A267DEE953C8B0ACF /* NSString+XTHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTHash.h"; path = "XTComponentUtils/LocalDependency/NSString+XTHash.h"; sourceTree = "<group>"; };
+		98D9E4C860C6E8CCB7A806DBFB938F0F /* XTComponentUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTComponentUtils.modulemap; sourceTree = "<group>"; };
+		A11DDE5CD62F3CCD8E100E673A2D7FAB /* NSString+XTEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTEncryption.m"; path = "XTComponentUtils/LocalDependency/NSString+XTEncryption.m"; sourceTree = "<group>"; };
+		A29C8E649D2DC1524DFD70906A2A29A3 /* XTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTUtils.h; path = XTComponentUtils/Utils/XTUtils.h; sourceTree = "<group>"; };
 		A309AD535DBBCBE73488FD4B6F72B279 /* Pods-XTComponentSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTComponentSocket-dummy.m"; sourceTree = "<group>"; };
-		A7CA98F1D7EB64957CD9D0C32E10E4AE /* XTUtils+PriceGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+PriceGroup.h"; path = "XTComponentUtils/Utils/XTUtils+PriceGroup.h"; sourceTree = "<group>"; };
-		AB0267B7665B1F67A91007078C3560B4 /* XTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTUtils.h; path = XTComponentUtils/Utils/XTUtils.h; sourceTree = "<group>"; };
-		B09ED11B922097091175F30F16F503A8 /* XTUtils+AES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+AES.h"; path = "XTComponentUtils/Utils/XTUtils+AES.h"; sourceTree = "<group>"; };
+		A30B4DA730F73E7FEB5FB2449159BEB8 /* XTComponentUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTComponentUtils-umbrella.h"; sourceTree = "<group>"; };
+		ADC3FF058ABFC6EA1F63D22BFFB75696 /* XTUtils+DES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+DES.m"; path = "XTComponentUtils/Utils/XTUtils+DES.m"; sourceTree = "<group>"; };
 		B162D60DAF60C8E67FEBF3A3F1EDFB03 /* Pods-XTComponentSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTComponentSocket-umbrella.h"; sourceTree = "<group>"; };
+		BE17C3833ACEC1F07F08EBA5BFAA3C44 /* XTComponentUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTComponentUtils.xcconfig; sourceTree = "<group>"; };
 		C193F965DAB36AEEBC5032A7E6C5D5AA /* Pods-XTComponentSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTComponentSocket.debug.xcconfig"; sourceTree = "<group>"; };
-		C76C9F343A69FCEAD88BE4C72AA87FED /* XTComponentUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTComponentUtils.xcconfig; sourceTree = "<group>"; };
-		D027220AC81DCA862C1F6EFD23A85B86 /* XTComponentUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTComponentUtils-prefix.pch"; sourceTree = "<group>"; };
+		C8B95870C672B7DB43DCC03940A13E0F /* XTUtils+DES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+DES.h"; path = "XTComponentUtils/Utils/XTUtils+DES.h"; sourceTree = "<group>"; };
+		C8E5319DD81E90F464951F875B36402F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB72D37573FDE78A7341ED5B6D603ADF /* XTUtils+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+Date.h"; path = "XTComponentUtils/Utils/XTUtils+Date.h"; sourceTree = "<group>"; };
+		D127FE7586AFB615F2E9DDB6CAA61FC2 /* XTUtils+PriceGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+PriceGroup.m"; path = "XTComponentUtils/Utils/XTUtils+PriceGroup.m"; sourceTree = "<group>"; };
+		DA1BAC86008743E7EE1BC51B9C3E393E /* NSString+XTHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTHash.m"; path = "XTComponentUtils/LocalDependency/NSString+XTHash.m"; sourceTree = "<group>"; };
 		DC8944F8D8291E282B3351FDF969C54A /* XTComponentUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTComponentUtils.framework; path = XTComponentUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC8D8210AF7D3BC7CD7580F392BE7F1F /* XTUtils+PriceGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XTUtils+PriceGroup.m"; path = "XTComponentUtils/Utils/XTUtils+PriceGroup.m"; sourceTree = "<group>"; };
-		DF650F3EF2C3945B65D25E4D6777A44C /* XTComponentUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTComponentUtils.h; path = XTComponentUtils/XTComponentUtils.h; sourceTree = "<group>"; };
-		E294C436FEA6A2F0C6AC30C6A1086B6E /* XTPriceGroupInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTPriceGroupInfo.m; path = XTComponentUtils/Models/XTPriceGroupInfo.m; sourceTree = "<group>"; };
+		DDC23F82932E4A21AA7C6ADADC024F8E /* XTComponentUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTComponentUtils-prefix.pch"; sourceTree = "<group>"; };
 		E4869504B53068D25D48021D9E587F87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E84487C511F47D27D32B3BFA27A43A0F /* Pods-XTComponentSocket-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTComponentSocket-resources.sh"; sourceTree = "<group>"; };
-		EB27EE3B3DBCABA968C1D5C8DA4DFE24 /* XTComponentUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTComponentUtils.modulemap; sourceTree = "<group>"; };
-		FD1357956E30A04E446FE0CEE8B3526D /* XTUtils+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XTUtils+Date.h"; path = "XTComponentUtils/Utils/XTUtils+Date.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,40 +124,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		474C9DE0059169F70D8030A4F50C1F90 /* XTComponentUtils */ = {
+		63E2C49E9DDE80E4A5CBEEC205313D09 /* XTComponentUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DF650F3EF2C3945B65D25E4D6777A44C /* XTComponentUtils.h */,
-				C4404EDF4919B4CDB78672733B4A7C6E /* LocalDependency */,
-				5220BA60005C3BAD161B97A27E1066C2 /* Models */,
-				797790B14EEC641414E3BD443F3D0399 /* Support Files */,
-				FBA63C2E53CEAE1D5CEA5B39815C03B7 /* Utils */,
+				F9488CACC2B26C23F5AAC1F318C23676 /* LocalDependency */,
+				A30D1082EED36B71F25C01CBD53EEC1F /* Models */,
+				E614D4E57129087EAC4B06B369D2D9A5 /* Support Files */,
+				DD34C45D9B41D10CE2E1BC629E98FD72 /* Utils */,
 			);
 			name = XTComponentUtils;
 			path = XTComponentUtils;
-			sourceTree = "<group>";
-		};
-		5220BA60005C3BAD161B97A27E1066C2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				458FCDF632CBCB893C0E90B01531D4D5 /* XTPriceGroupInfo.h */,
-				E294C436FEA6A2F0C6AC30C6A1086B6E /* XTPriceGroupInfo.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		797790B14EEC641414E3BD443F3D0399 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D20C8BCDD13169AA86CB363A050CDE3 /* Info.plist */,
-				EB27EE3B3DBCABA968C1D5C8DA4DFE24 /* XTComponentUtils.modulemap */,
-				C76C9F343A69FCEAD88BE4C72AA87FED /* XTComponentUtils.xcconfig */,
-				04F8CAEB85AF82DBF4B3DD626D1A228B /* XTComponentUtils-dummy.m */,
-				D027220AC81DCA862C1F6EFD23A85B86 /* XTComponentUtils-prefix.pch */,
-				41B0D6A3000B6D53D80BF37FA77FA8B4 /* XTComponentUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/XTComponentUtils";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -167,7 +141,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E4272508E1158FAFB246A08D58FB61A1 /* Pods */,
+				EB4C4D43C9F37AA63B8DC76F1FBC30A7 /* Pods */,
 				873EE172CB143E1CEBC36B3E6255579D /* Products */,
 				42AEA449530BA5BCDFA0E1E952DC0176 /* Targets Support Files */,
 			);
@@ -182,23 +156,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A30D1082EED36B71F25C01CBD53EEC1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC313E48A85FAE73F956A6EBB3FE5E /* XTPriceGroupInfo.h */,
+				07D10AE32ADDF26953CDA294B348B33A /* XTPriceGroupInfo.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4404EDF4919B4CDB78672733B4A7C6E /* LocalDependency */ = {
-			isa = PBXGroup;
-			children = (
-				824EE757D52C99B9972C9CFD7D323D94 /* NSString+XTEncryption.h */,
-				55B07B36D0C03C51B931E7800B77E468 /* NSString+XTEncryption.m */,
-				A06C6FBF7CE5E72A267DEE953C8B0ACF /* NSString+XTHash.h */,
-				14CD8198625989A51E901E3F14E735EF /* NSString+XTHash.m */,
-			);
-			name = LocalDependency;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -209,48 +181,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E4272508E1158FAFB246A08D58FB61A1 /* Pods */ = {
+		DD34C45D9B41D10CE2E1BC629E98FD72 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				474C9DE0059169F70D8030A4F50C1F90 /* XTComponentUtils */,
+				A29C8E649D2DC1524DFD70906A2A29A3 /* XTUtils.h */,
+				1F8C67ACFCDF5AF56E40114068AE1CBA /* XTUtils.m */,
+				694C92F9B44DF027E7C941C0583A85A9 /* XTUtils+AES.h */,
+				91B44FD9893BC72C5063A05592BF3A6E /* XTUtils+AES.m */,
+				CB72D37573FDE78A7341ED5B6D603ADF /* XTUtils+Date.h */,
+				84102BF301091786823D11976C28B5DA /* XTUtils+Date.m */,
+				C8B95870C672B7DB43DCC03940A13E0F /* XTUtils+DES.h */,
+				ADC3FF058ABFC6EA1F63D22BFFB75696 /* XTUtils+DES.m */,
+				8A744AF1E2C15FC8B1786C8269777B39 /* XTUtils+PriceGroup.h */,
+				D127FE7586AFB615F2E9DDB6CAA61FC2 /* XTUtils+PriceGroup.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E614D4E57129087EAC4B06B369D2D9A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5319DD81E90F464951F875B36402F /* Info.plist */,
+				98D9E4C860C6E8CCB7A806DBFB938F0F /* XTComponentUtils.modulemap */,
+				BE17C3833ACEC1F07F08EBA5BFAA3C44 /* XTComponentUtils.xcconfig */,
+				8186E367433E65AADA6345805BAD9683 /* XTComponentUtils-dummy.m */,
+				DDC23F82932E4A21AA7C6ADADC024F8E /* XTComponentUtils-prefix.pch */,
+				A30B4DA730F73E7FEB5FB2449159BEB8 /* XTComponentUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XTComponentUtils";
+			sourceTree = "<group>";
+		};
+		EB4C4D43C9F37AA63B8DC76F1FBC30A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E2C49E9DDE80E4A5CBEEC205313D09 /* XTComponentUtils */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FBA63C2E53CEAE1D5CEA5B39815C03B7 /* Utils */ = {
+		F9488CACC2B26C23F5AAC1F318C23676 /* LocalDependency */ = {
 			isa = PBXGroup;
 			children = (
-				AB0267B7665B1F67A91007078C3560B4 /* XTUtils.h */,
-				012B9A33B5E07EBDF5215D7AD7021ADE /* XTUtils.m */,
-				B09ED11B922097091175F30F16F503A8 /* XTUtils+AES.h */,
-				6A0E309F16348BC8DA5FEBBFDD3652DD /* XTUtils+AES.m */,
-				FD1357956E30A04E446FE0CEE8B3526D /* XTUtils+Date.h */,
-				8B6D35957D92005C57CD1059C0836907 /* XTUtils+Date.m */,
-				421D6A805FAD6E1926FEA767A1CCC0E8 /* XTUtils+DES.h */,
-				57651A6E4E23B8D756593DEB92242779 /* XTUtils+DES.m */,
-				A7CA98F1D7EB64957CD9D0C32E10E4AE /* XTUtils+PriceGroup.h */,
-				DC8D8210AF7D3BC7CD7580F392BE7F1F /* XTUtils+PriceGroup.m */,
+				8EADC24DDC72684B20E84DCCB77717C4 /* NSString+XTEncryption.h */,
+				A11DDE5CD62F3CCD8E100E673A2D7FAB /* NSString+XTEncryption.m */,
+				83E2305B49EC6B246E02EEE314FBD933 /* NSString+XTHash.h */,
+				DA1BAC86008743E7EE1BC51B9C3E393E /* NSString+XTHash.m */,
 			);
-			name = Utils;
+			name = LocalDependency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CF41CD5A78B2F3D9AF252EDF48097005 /* Headers */ = {
+		9D321E2B63C3E2E24101DC72EC97D9ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E706D58F38C3176F66EBA08986441D /* NSString+XTEncryption.h in Headers */,
-				57C5D354FA5B74B83CD51F25545BAC3B /* NSString+XTHash.h in Headers */,
-				09E717EF3D0D9D21CB10FE04E4E4BF0C /* XTComponentUtils-umbrella.h in Headers */,
-				2F2ADCDF6F2B948CC78F7191BE6A32E9 /* XTComponentUtils.h in Headers */,
-				6DD3ABAAB4ED92E14938EB826A85B9BE /* XTPriceGroupInfo.h in Headers */,
-				EFB67EDC3E3E27425B68D3006CDF9B98 /* XTUtils+AES.h in Headers */,
-				4A0212D70881BAD5BD826529100DC9CD /* XTUtils+Date.h in Headers */,
-				93768282BAE55CA08DB73CF57C7F2424 /* XTUtils+DES.h in Headers */,
-				144DECEC9FE4AFC61A6B5F1D66BB21DC /* XTUtils+PriceGroup.h in Headers */,
-				B66199A405CE3E383A310A6E04B589B4 /* XTUtils.h in Headers */,
+				CF34C16293F805263C5363EF461A0818 /* NSString+XTEncryption.h in Headers */,
+				498954373E797CEE631A4E3836FF0277 /* NSString+XTHash.h in Headers */,
+				EB3651A559B0D1680A337C5796842CBC /* XTComponentUtils-umbrella.h in Headers */,
+				9ADD309F75018BC4F0186413E14E62C7 /* XTPriceGroupInfo.h in Headers */,
+				294A0D5331784903287BAFC46CDE654D /* XTUtils+AES.h in Headers */,
+				C9303D8131BD9E557B84E4ADEF2F1B53 /* XTUtils+Date.h in Headers */,
+				923B567336D9C5835885A3AEB976B4C9 /* XTUtils+DES.h in Headers */,
+				F0A55904E9920DA5A3B6AEC33A0251A9 /* XTUtils+PriceGroup.h in Headers */,
+				A6A48831BD3AE8E6C7A998BF1CF096D1 /* XTUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +285,7 @@
 			buildPhases = (
 				4508C765E34F2B6A6D5789EED9F1CEBC /* Sources */,
 				F9E9A3DC8C64129968F1B52A524A4624 /* Frameworks */,
-				CF41CD5A78B2F3D9AF252EDF48097005 /* Headers */,
+				9D321E2B63C3E2E24101DC72EC97D9ED /* Headers */,
 			);
 			buildRules = (
 			);
@@ -366,7 +362,7 @@
 /* Begin XCBuildConfiguration section */
 		02C5B44DCE62BAAC431FAE14656E74F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C76C9F343A69FCEAD88BE4C72AA87FED /* XTComponentUtils.xcconfig */;
+			baseConfigurationReference = BE17C3833ACEC1F07F08EBA5BFAA3C44 /* XTComponentUtils.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -463,7 +459,7 @@
 		};
 		8C68F3519EF85458814BAF8E80C30B83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C76C9F343A69FCEAD88BE4C72AA87FED /* XTComponentUtils.xcconfig */;
+			baseConfigurationReference = BE17C3833ACEC1F07F08EBA5BFAA3C44 /* XTComponentUtils.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",

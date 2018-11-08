@@ -1,24 +1,24 @@
 PODS:
-  - XTComponentUtils (1.0.9):
-    - XTComponentUtils/LocalDependency (= 1.0.9)
-    - XTComponentUtils/Models (= 1.0.9)
-    - XTComponentUtils/Utils (= 1.0.9)
-  - XTComponentUtils/LocalDependency (1.0.9)
-  - XTComponentUtils/Models (1.0.9)
-  - XTComponentUtils/Utils (1.0.9):
+  - XTComponentUtils (1.1.1):
+    - XTComponentUtils/LocalDependency (= 1.1.1)
+    - XTComponentUtils/Models (= 1.1.1)
+    - XTComponentUtils/Utils (= 1.1.1)
+  - XTComponentUtils/LocalDependency (1.1.1)
+  - XTComponentUtils/Models (1.1.1)
+  - XTComponentUtils/Utils (1.1.1):
     - XTComponentUtils/LocalDependency
     - XTComponentUtils/Models
 
 DEPENDENCIES:
-  - XTComponentUtils (~> 1.0.9)
+  - XTComponentUtils (~> 1.1.1)
 
 SPEC REPOS:
   https://github.com/leblanc-zx/ZXSpecs.git:
     - XTComponentUtils
 
 SPEC CHECKSUMS:
-  XTComponentUtils: d09598a26a5bb2af85535771fed455083ed34af3
+  XTComponentUtils: b667ec3a7902aa1086564cdd02ad7cba5641cc75
 
-PODFILE CHECKSUM: 1577fa05e09618117d365accb082dfb63f001e5f
+PODFILE CHECKSUM: 18e20fc0e60797427c7bf7ba8e19869878b2e51e
 
 COCOAPODS: 1.5.0
