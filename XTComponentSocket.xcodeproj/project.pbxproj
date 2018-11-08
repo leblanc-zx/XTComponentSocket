@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F23059DCB0E7FCF2D078249 /* Pods_XTComponentSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BCAAE6C060D46A8D3EF562 /* Pods_XTComponentSocket.framework */; };
-		18BBC5BB2194251C002D62F6 /* XTComponentSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5B92194251C002D62F6 /* XTComponentSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC5C92194258E002D62F6 /* XTAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5C22194258E002D62F6 /* XTAsyncSocket.h */; };
 		18BBC5CA2194258E002D62F6 /* XTAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5C32194258E002D62F6 /* XTAsyncSocket.m */; };
 		18BBC5CB2194258E002D62F6 /* XTAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5C42194258E002D62F6 /* XTAsyncUdpSocket.h */; };
@@ -17,11 +16,11 @@
 		18BBC5CE2194258E002D62F6 /* XTSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5C82194258E002D62F6 /* XTSocketManager.m */; };
 		18BBC5D1219425C1002D62F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18BBC5CF219425C1002D62F6 /* LICENSE */; };
 		18BBC5D2219425C1002D62F6 /* XTComponentSocket.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18BBC5D0219425C1002D62F6 /* XTComponentSocket.podspec */; };
+		18BBC5D521942B8A002D62F6 /* XTComponentSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5D321942B8A002D62F6 /* XTComponentSocket.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18BBC5B62194251C002D62F6 /* XTComponentSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTComponentSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18BBC5B92194251C002D62F6 /* XTComponentSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTComponentSocket.h; sourceTree = "<group>"; };
 		18BBC5BA2194251C002D62F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BBC5C22194258E002D62F6 /* XTAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAsyncSocket.h; sourceTree = "<group>"; };
 		18BBC5C32194258E002D62F6 /* XTAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAsyncSocket.m; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		18BBC5C82194258E002D62F6 /* XTSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSocketManager.m; sourceTree = "<group>"; };
 		18BBC5CF219425C1002D62F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		18BBC5D0219425C1002D62F6 /* XTComponentSocket.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XTComponentSocket.podspec; sourceTree = "<group>"; };
+		18BBC5D321942B8A002D62F6 /* XTComponentSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTComponentSocket.h; sourceTree = "<group>"; };
 		1AFD06D00E0FD21276E8DFC8 /* Pods-XTComponentSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTComponentSocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTComponentSocket/Pods-XTComponentSocket.debug.xcconfig"; sourceTree = "<group>"; };
 		50BCAAE6C060D46A8D3EF562 /* Pods_XTComponentSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTComponentSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCE17EF9BA6038F066E2519 /* Pods-XTComponentSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTComponentSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTComponentSocket/Pods-XTComponentSocket.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		18BBC5B82194251C002D62F6 /* XTComponentSocket */ = {
 			isa = PBXGroup;
 			children = (
-				18BBC5B92194251C002D62F6 /* XTComponentSocket.h */,
+				18BBC5D321942B8A002D62F6 /* XTComponentSocket.h */,
 				18BBC5C62194258E002D62F6 /* Socket */,
 				18BBC5C12194258E002D62F6 /* LocalDependency */,
 				18BBC5BA2194251C002D62F6 /* Info.plist */,
@@ -124,9 +124,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BBC5CB2194258E002D62F6 /* XTAsyncUdpSocket.h in Headers */,
+				18BBC5D521942B8A002D62F6 /* XTComponentSocket.h in Headers */,
 				18BBC5CD2194258E002D62F6 /* XTSocketManager.h in Headers */,
 				18BBC5C92194258E002D62F6 /* XTAsyncSocket.h in Headers */,
-				18BBC5BB2194251C002D62F6 /* XTComponentSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
