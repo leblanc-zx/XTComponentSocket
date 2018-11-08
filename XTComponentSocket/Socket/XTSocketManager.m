@@ -215,7 +215,7 @@ static id _instace;
 
 #pragma -mark login
 /**
- socket登录
+ socket登录 
  
  @param userNo 用户编号
  @param success 成功
