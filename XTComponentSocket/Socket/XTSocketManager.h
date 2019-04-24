@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "XTAsyncSocket.h"
 #import "XTAsyncUdpSocket.h"
-#import "XTUtils+AES.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
